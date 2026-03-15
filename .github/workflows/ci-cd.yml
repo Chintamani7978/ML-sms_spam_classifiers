@@ -2,9 +2,9 @@ name: CI/CD Pipeline - SMS Spam Classifier
 
 on:
   push:
-    branches: [main, develop, testing]
+    branches: [main, develop, dev]
   pull_request:
-    branches: [main, testing]
+    branches: [main, dev]
   workflow_dispatch:
 
 env:
